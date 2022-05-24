@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/drawable/ic_hospital.xml" value="0.2485" />
+        <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/drawable/ic_tanggal.xml" value="0.2485" />
         <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout-v26/activity_show_pasien.xml" value="0.35778985507246375" />
-        <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout/activity_input_data.xml" value="0.33" />
+        <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout/activity_result.xml" value="0.35778985507246375" />
+        <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout/activity_result_pasien.xml" value="0.35778985507246375" />
         <entry key="..\:/Development/ANDROID/ClinicMobile/app/src/main/res/layout/activity_tampil.xml" value="0.35778985507246375" />
       </map>
     </option>

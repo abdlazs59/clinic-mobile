@@ -16,7 +16,7 @@
             android:name=".ResultPasienActivity"
             android:exported="false" />
         <activity
-            android:name=".ShowPasienActivity"
+            android:name=".InputDataActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

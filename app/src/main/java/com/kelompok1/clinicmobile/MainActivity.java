@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button btnInputData = (Button) findViewById(R.id.btnInputData);
         btnInputData.setOnClickListener((view -> {
-            Intent intent = new Intent(MainActivity.this, ShowPasienActivity.class);
+            Intent intent = new Intent(MainActivity.this, InputDataActivity.class);
             startActivity(intent);
         }));
 
