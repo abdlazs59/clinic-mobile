@@ -45,7 +45,7 @@
         android:id="@+id/tv_jenis_kelamin"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="180dp"
         android:paddingLeft="15dp"
         android:text="Jenis Kelamin :"
         android:textColor="@color/black"
@@ -57,14 +57,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="180dp"
+        android:tooltipText="Masukan Jenis Kelamin"
         android:padding="20sp" />
 
     <TextView
         android:id="@+id/tv_umur"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="240dp"
         android:paddingLeft="15dp"
         android:text="Umur Pasien  :"
         android:textColor="@color/black"
@@ -75,7 +76,7 @@
         android:id="@+id/et_umur"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="240dp"
         android:layout_marginLeft="160dp"
         android:hint="Masukan Umur Pasien"
         android:inputType="textShortMessage"
@@ -83,10 +84,44 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id=""
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/tv_pilihan_berobat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="290dp"
+        android:paddingLeft="15sp"
+        android:text="Pilihan Berobat :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
+    <Spinner
+        android:id="@+id/spinner_pilihan_berobat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="290dp"
+        android:padding="20sp" />
+
+    <TextView
+        android:id="@+id/tv_tanggal_berobat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:paddingLeft="15sp"
+        android:text="Tanggal Berobat :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_tanggal_berobat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="350dp"
+        android:drawableStart="@drawable/ic_tanggal"
+        android:hint="Tanggal Berobat"
+        android:textSize="15sp"/>
 
 
 </RelativeLayout>
